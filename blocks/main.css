@@ -1,0 +1,37 @@
+.content {
+  max-width: 1280px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 830px;
+  margin-left: 140px;
+}
+
+.main__tittle {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 54px;
+  line-height: 1;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.main__phrase {
+  font-size: 24px;
+  max-width: 700px;
+  margin-bottom: 10px;
+}
+
+.main__author-phrase {
+  display: flex;
+  font-size: 24px;
+  justify-content: flex-end;
+  margin-bottom: 32px;
+  max-width: 700px;
+}
+
+.main__description {
+  margin-bottom: 92px;
+  max-width: 680px;
+}
