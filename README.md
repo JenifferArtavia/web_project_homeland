@@ -8,4 +8,4 @@ Tecnologías:
 -BEM
 
 #Descripcion:
-En este proyecto trabajamos en lo que es las paginas responsivas en 3 diferentes tamaños
+En este proyecto trabajamos en lo que es las paginas responsivas en 3 diferentes tamaños.
