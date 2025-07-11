@@ -1,3 +1,7 @@
+.main {
+  margin-left: 148px;
+  max-width: 830px;
+}
 .main__tittle {
   display: flex;
   flex-wrap: wrap;
