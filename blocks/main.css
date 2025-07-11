@@ -57,23 +57,20 @@
 
 @media screen and (max-width: 544px) {
   .main {
-    margin-left: 0px;
+    max-width: 288px;
+    margin: 0px auto 0px auto;
   }
 
   .main__tittle {
-    max-width: 288px;
     font-size: 32px;
   }
   .main__phrase {
-    max-width: 288px;
     margin-bottom: 10px;
   }
   .main__author-phrase {
-    max-width: 288px;
     margin-bottom: 32px;
   }
   .main__description {
-    max-width: 288px;
     margin-bottom: 64px;
   }
 }
