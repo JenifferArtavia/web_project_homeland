@@ -54,6 +54,11 @@
   object-fit: fill;
   margin-bottom: 48px;
 }
+.places__photo:hover {
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
 .places__buttons {
   max-width: 289px;
   height: 48px;
@@ -222,7 +227,7 @@
   }
   .places__information-muramvya {
     max-width: 320px;
-    max-height: 1700px;
+    max-height: 1559px;
     margin-left: 0px;
     display: block;
     display: flex;
