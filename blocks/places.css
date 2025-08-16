@@ -5,7 +5,7 @@
 
 .places__information {
   max-width: 984px;
-  max-height: 756px;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 125px repeat(3, 1fr);
@@ -16,7 +16,7 @@
 
 .places__information-muramvya {
   max-width: 984px;
-  max-height: 859px;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 125px repeat(3, 1fr);
@@ -27,7 +27,7 @@
 
 .places__information-fortuna {
   max-width: 984px;
-  max-height: 859px;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 125px repeat(4, 1fr);
@@ -38,7 +38,7 @@
 
 .places__names {
   max-width: 460px;
-  max-height: 756px;
+
   font-weight: 900px;
   font-size: 72px;
   line-height: 0.76;
@@ -48,16 +48,16 @@
 .places__photo {
   grid-column-end: 1;
   min-width: 460px;
-  min-height: 460px;
-  max-height: 460px;
+  height: 460px;
+
   max-width: 460px;
   object-fit: fill;
   margin-bottom: 48px;
 }
 .places__photo:hover {
-  background: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  filter: grayscale(20%);
+  opacity: 0.2;
+  box-shadow: 10px 10px 40px #000000;
 }
 .places__buttons {
   max-width: 289px;
@@ -68,6 +68,9 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .places__history {
@@ -125,7 +128,6 @@
 }
 
 .places__history-muramvya {
-  max-height: 681px;
   line-height: -0.6;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -162,27 +164,27 @@
   }
   .places__information-muramvya {
     max-width: 720px;
-    max-height: 892px;
+
     margin-left: 24px;
     margin-bottom: 72px;
   }
   .places__information-fortuna {
     max-width: 720px;
-    max-height: 892px;
+
     margin-left: 24px;
     margin-bottom: 72px;
   }
   .places__names {
     max-width: 340px;
-    max-height: 46px;
+
     font-weight: 900px;
     font-size: 42px;
     line-height: 0.91;
   }
   .places__photo {
     min-width: 340px;
-    min-height: 340px;
-    max-height: 340px;
+    height: 340px;
+
     max-width: 340px;
   }
   .places__website {
@@ -218,7 +220,7 @@
   }
   .places__information {
     max-width: 320px;
-    max-height: 1261px;
+
     margin-left: 0px;
     display: block;
     display: flex;
@@ -227,7 +229,7 @@
   }
   .places__information-muramvya {
     max-width: 320px;
-    max-height: 1559px;
+
     margin-left: 0px;
     display: block;
     display: flex;
@@ -236,7 +238,7 @@
   }
   .places__information-fortuna {
     max-width: 320px;
-    max-height: 1559px;
+
     margin-left: 0px;
     display: block;
     display: flex;
@@ -246,12 +248,11 @@
   .places__names {
     font-size: 32px;
     max-width: 288px;
-    max-height: 35px;
   }
   .places__photo {
     max-width: 320px;
-    max-height: 320px;
-    min-height: 320px;
+    height: 320px;
+
     min-width: 320px;
     object-fit: cover;
   }
