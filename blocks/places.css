@@ -7,7 +7,6 @@
   max-width: 984px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
   grid-gap: 30px 25px;
   margin-left: 148px;
   margin-bottom: 80px;
@@ -72,6 +71,11 @@
   flex-direction: column;
   justify-content: center;
 }
+.places__buttons:hover {
+  filter: grayscale(20%);
+  opacity: 0.2;
+  box-shadow: 10px 10px 40px #000000;
+}
 
 .places__history {
   display: flex;
@@ -107,10 +111,11 @@
   font-size: 18px;
   line-height: 0.81;
 }
-.places__link-artist_cricieth {
+.places__link places__link_artist-cricieth {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
 .places__description {
   max-width: 484px;
   font-weight: 400;

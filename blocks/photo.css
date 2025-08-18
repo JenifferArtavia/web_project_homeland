@@ -1,4 +1,4 @@
-.photo__grid {
+.photo {
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -7,7 +7,7 @@
   margin: 0px auto 92px auto;
 }
 
-.photo__item {
+.photo__grid {
   width: 100%;
 }
 
