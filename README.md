@@ -9,3 +9,5 @@ Tecnologías:
 
 #Descripcion:
 En este proyecto trabajamos en lo que es las paginas responsivas en 3 diferentes tamaños.
+
+En el proyecto Seis seguimos trabajando en esta misma pagina agregando dos secciones mas con imagenes y utilizando grid.

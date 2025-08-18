@@ -5,18 +5,18 @@
 
 .places__information {
   max-width: 984px;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 125px repeat(3, 1fr);
+
   grid-gap: 30px 25px;
   margin-left: 148px;
   margin-bottom: 80px;
+  max-height: fit-content;
 }
 
 .places__information-muramvya {
   max-width: 984px;
-
+  max-height: 859px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 125px repeat(3, 1fr);
@@ -27,7 +27,7 @@
 
 .places__information-fortuna {
   max-width: 984px;
-
+  max-height: 859px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 125px repeat(4, 1fr);
@@ -38,12 +38,12 @@
 
 .places__names {
   max-width: 460px;
-
   font-weight: 900px;
   font-size: 72px;
   line-height: 0.76;
   margin-top: 0px;
   margin-bottom: 48px;
+  margin: auto;
 }
 .places__photo {
   grid-column-end: 1;
@@ -87,6 +87,7 @@
 
 .places__website {
   max-width: 456px;
+  margin: auto;
 }
 
 .places__link-heading {
@@ -99,14 +100,14 @@
   line-height: 100%;
 }
 
-.stories__link-artist {
+.places__link-artist {
   margin-bottom: 48px;
   margin-top: 0px;
   font-weight: 400;
   font-size: 18px;
   line-height: 0.81;
 }
-.stories__link-artist_cricieth {
+.places__link-artist_cricieth {
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -120,11 +121,13 @@
   font-size: 18px;
   list-style: 163%;
   margin-bottom: 25px;
+  margin: auto;
 }
 
 .places__description-muramvya {
   margin-bottom: 0px;
   margin-top: 0px;
+  margin: auto;
 }
 
 .places__history-muramvya {
@@ -138,6 +141,7 @@
   font-weight: 400;
   font-size: 18px;
   list-style: 163%;
+  margin: auto;
 }
 
 .places__history-fortuna {
@@ -149,6 +153,7 @@
   font-weight: 400;
   font-size: 18px;
   list-style: 163%;
+  margin: auto;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 544px) {
@@ -160,11 +165,9 @@
     margin-left: 24px;
     margin-bottom: 72px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 125px repeat(3, 1fr);
   }
   .places__information-muramvya {
     max-width: 720px;
-
     margin-left: 24px;
     margin-bottom: 72px;
   }
@@ -229,7 +232,7 @@
   }
   .places__information-muramvya {
     max-width: 320px;
-
+    max-height: none;
     margin-left: 0px;
     display: block;
     display: flex;
@@ -238,7 +241,7 @@
   }
   .places__information-fortuna {
     max-width: 320px;
-
+    max-height: none;
     margin-left: 0px;
     display: block;
     display: flex;
